@@ -146,8 +146,8 @@ export default function CustomChip(props)
           
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose}>Close</Button>
-          <Button onClick={handleSubmit}>Edit User Profile</Button>
+          <Button color='secondary' onClick={handleClose}>Close</Button>
+          <Button color='secondary' onClick={handleSubmit}>Edit User Profile</Button>
         </DialogActions>
       </Dialog>
             <CustomSnackbar
